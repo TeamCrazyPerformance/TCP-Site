@@ -8,7 +8,7 @@ const Intro = () => {
       <span>C</span>
       <span>razy</span>
       <span>P</span>
-      <span>erformance</span>
+      <span>erformanceasdfasdfasdfasdf</span>
     </div>
   );
 };
