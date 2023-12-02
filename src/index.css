@@ -3,15 +3,10 @@
   font-family: "Noto Sans KR", sans-serif;
 }
 
-body,
-html {
-  overflow: auto;
-}
-
 body {
   margin: 0;
   height: 100vh;
-  background-color: #daddd8;
+  background-color: #fafaff;
 }
 
 #root {

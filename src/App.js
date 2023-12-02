@@ -5,6 +5,7 @@ import "./App.css";
 import Home from "./components/page/Home/Home";
 import Layout from "./components/layout/Layout";
 import About from "./components/page/About/About";
+import Application from "./components/page/Apllication/Application";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
+          <Route path="/application" element={<Application />}></Route>
         </Routes>
       </Layout>
     </Router>

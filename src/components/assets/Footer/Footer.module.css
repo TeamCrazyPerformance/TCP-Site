@@ -1,0 +1,53 @@
+/* YourFooter.module.css */
+
+.footer {
+  background-color: #2d2d2d;
+  color: #fff;
+  padding: 30px 0;
+  height: 40%;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footerSection {
+  width: 30%;
+}
+
+.footerSection h3 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.footerSection ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footerSection li {
+  margin-bottom: 10px;
+}
+
+.footerSection a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footerSocial {
+  width: 30%;
+}
+
+.footerSocial a {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footerSocial img {
+  width: 30px;
+  height: 30px;
+}

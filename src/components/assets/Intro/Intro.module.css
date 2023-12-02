@@ -1,4 +1,68 @@
 .container {
   width: 100%;
-  height: calc(100vh - 4rem);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  padding: 5rem 2rem;
+}
+
+.introContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: start;
+  gap: 2rem;
+}
+
+.wrap {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+
+.word {
+  line-height: 4rem;
+  margin-top: 2rem;
+}
+
+.word > .capital {
+  color: #78d4e6;
+  font-size: 8rem;
+  font-family: "Inter", sans-serif;
+  text-shadow: 2px 2px 2px gray;
+}
+
+.word > .lowwer {
+  color: #1c1c1c;
+  font-size: 6rem;
+  font-family: "Inter", sans-serif;
+  text-shadow: 2px 2px 2px gray;
+}
+
+.wrapArticle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.apBtn {
+  width: 100px;
+  height: 50px;
+  background-color: #78d4e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5rem;
+  box-shadow: 2px 2px 2px gray;
+  margin-top: -60px;
+}
+
+.apBtn > a {
+  text-decoration: none;
+  color: #fafafa;
 }
